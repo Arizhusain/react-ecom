@@ -1,0 +1,117 @@
+{
+  "products":[
+    {
+      "id":1,
+      "url":"https://media.croma.com/image/upload/v1605183501/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/8945035247646.png",
+      "name":"HeadPhone",
+      "price":200
+    },
+    {
+      "id":2,
+      "url":"https://dl.airtable.com/.attachmentThumbnails/30b7e0e9f9498055e02f03fa9732d10f/55877d21",
+      "name":"Mobile",
+      "price":900
+    },
+    {
+      "id":3,
+      "url":"https://assets.ajio.com/medias/sys_master/root/h5a/h59/13018715881502/-1117Wx1400H-460342492-blue-MODEL.jpg",
+      "name":"Shoes",
+      "price":400
+    },
+    {
+      "id":4,
+      "url":"https://5.imimg.com/data5/NM/LX/MY-42532489/mens-black-jacket-500x500.jpg",
+      "name":"Jacket",
+      "price":500
+    },
+    {
+      "id":5,
+      "url":"https://m.media-amazon.com/images/I/81SdJG3OUjL._SL1500_.jpg",
+      "name":"Laptop",
+      "price":2000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Arifhusain",
+      "lastName": "Soudagar",
+      "email": "arifhusainsoudagar@gmail.com",
+      "phone": "7358236715",
+      "password": "Ariz*07860"
+    },
+    {
+      "firstName": "Arifhusain",
+      "lastName": "Soudagar",
+      "email": "arifhusainsoudagar01@gmail.com",
+      "phone": "07358236715",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 2
+    },
+    {
+      "firstName": "aaa",
+      "lastName": "aaa",
+      "email": "aaaaaaaaaaaa@gmail.com",
+      "phone": "1234",
+      "password": "111",
+      "confirmPassword": "111",
+      "id": 3
+    },
+    {
+      "firstName": "Arifhusain",
+      "lastName": "Soudagar",
+      "email": "arif@gmail.com",
+      "phone": "07358236715",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 4
+    },
+    {
+      "firstName": "Arifhusain",
+      "lastName": "Soudagar",
+      "email": "abc@gmail.com",
+      "phone": "07358236715",
+      "password": "111",
+      "confirmPassword": "111",
+      "id": 5
+    },
+    {
+      "firstName": "bbb",
+      "lastName": "bbb",
+      "email": "bbb@gmail.com",
+      "phone": "1234",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 6
+    },
+    {
+      "firstName": "qqq",
+      "lastName": "qqq",
+      "email": "ccc@gmail.com",
+      "phone": "111",
+      "password": "11",
+      "confirmPassword": "11",
+      "id": 7
+    },
+    {
+      "firstName": "a",
+      "lastName": "a",
+      "email": "a@g.c",
+      "phone": "1",
+      "password": "1",
+      "confirmPassword": "1",
+      "id": 8
+    },
+    {
+      "firstName": "www",
+      "lastName": "wwww",
+      "email": "www@gmail.com",
+      "phone": "1234",
+      "password": "www",
+      "confirmPassword": "www",
+      "id": 9
+    }
+  ]
+  
+}
