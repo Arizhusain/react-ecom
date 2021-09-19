@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Navbar from "./Navbar";
 import Product from "./Product";
 
 const Home = () => {
@@ -14,9 +15,10 @@ const Home = () => {
   };
   return (
     <>
+    <Navbar/>
     {
       localStorage.getItem('login')?
-<div className="m-5">
+<div className="m-5 conatiner">
       <div className="row m-5">
         {products.map((item, index) => (
           <Product key={index} image={item.url} name={item.name} price={item.price} />

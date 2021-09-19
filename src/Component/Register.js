@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useHistory } from "react-router";
+import Navbar from "./Navbar";
 
 const Register = () => {
   const history = useHistory();
@@ -11,6 +12,7 @@ const Register = () => {
     phone: "",
     password: "",
     confirmPassword: "",
+    admin:false
   });
 
   const inputValues = (e) => {
@@ -29,6 +31,7 @@ const Register = () => {
   };
 
   return (
+    <><Navbar/>
     <div className="container mt-5 border shadow p-5">
       <h1 style={{ textAlign: "center" }}>Register Yourself</h1>
       <br/>
@@ -134,7 +137,7 @@ const Register = () => {
           Submit
         </button>
       </form>
-    </div>
+    </div></>
   );
 };
 

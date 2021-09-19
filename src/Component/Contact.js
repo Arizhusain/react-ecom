@@ -1,7 +1,9 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Contact = () => {
   return (
+    <><Navbar/>
     <div className="container mt-5 border shadow">
         <div className="border" style={{textAlign:"center",color:"wheat", background:"rgb(13, 110, 253)"}}>
         <h1 >Contact us</h1>    
@@ -76,7 +78,7 @@ const Contact = () => {
           </button>
         </div>
       </form>
-    </div>
+    </div></>
   );
 };
 

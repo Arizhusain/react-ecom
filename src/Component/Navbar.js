@@ -6,6 +6,7 @@ const Navbar = () => {
 
   const [data, setData] = useState(false);
   useEffect(()=>{
+    console.log(localStorage.getItem('admin'));
     if(localStorage.getItem("login")!==null){
       setData(true)
     }
@@ -50,6 +51,24 @@ let name = localStorage.getItem('firstName');
                   Contact
                 </NavLink>
               </li>
+
+              {
+                localStorage.getItem('admin')?
+                <>
+                  <li className="nav-item">
+                <NavLink className="nav-link" exact to="/products">
+                  Products
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" exact to="/users">
+                  Users
+                </NavLink>
+              </li>
+                </>
+              :
+              null
+              }
               
             </ul>
             <div style={{textAlign:"left", width:"50vh", color:"wheat"}}>

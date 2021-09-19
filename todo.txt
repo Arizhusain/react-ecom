@@ -1,0 +1,13 @@
+To be done
+
+Products
+    - Add Product
+    - Edit Product
+    - View Product
+    - Delete Product
+
+Users
+    - Add User
+    - Edit User
+    - View User
+    - Delete User
